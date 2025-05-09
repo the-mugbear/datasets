@@ -688,6 +688,6 @@
         "source": "char_probe:Control",
         "transformations": null
       }
-    ]
-  }
+  ],
+  "version": "1.0"
 }
