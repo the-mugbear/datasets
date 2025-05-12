@@ -1,0 +1,68 @@
+# --- Python Virtual Environment ---
+# Common virtual environment directories
+venv/
+env/
+.venv/
+.env/
+*_env/
+env.bak/
+venv.bak/
+
+# --- Python Bytecode and Cache ---
+# Compiled Python files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Type checker cache
+.mypy_cache/
+.pytype/
+cython_debug/
+
+# --- Distribution / Packaging ---
+# Distribution and installation artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+*.tar.gz
+*.whl
+
+# --- Testing ---
+# Test runner artifacts and coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# --- Project Specific ---
+# Ignore the generated output files
+processed/
+
+# Ignore input files if they are temporary or not meant for version control
+# Uncomment the line below if you DON'T want to track files in 'unprocessed/'
+# unprocessed/
+
+# --- OS Specific Files ---
+# Ignore macOS system files
+.DS_Store
+# Ignore Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# --- IDE / Editor Specific ---
+# Ignore common IDE/editor configuration directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Secrets ---
+# Ignore files potentially containing secrets or credentials
+# *.env  # Uncomment if you use .env files for environment variables
+# *.pem
+# credentials*
